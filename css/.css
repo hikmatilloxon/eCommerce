@@ -1,0 +1,42 @@
+/*@media (min-width: 1200px) {
+    body {
+      background-color: red;
+    }
+  }
+  
+  @media (min-width: 900px) and (max-width: 1200px) {
+    body {
+      background-color: green;
+    }
+  }
+  
+  @media (min-width: 500px) and (max-width: 900px) {
+    body {
+      background-color: orange;
+    }
+  }
+  
+  @media (max-width: 500px) and (max-width: 900px) {
+    body {
+      background-color: orange;
+    }
+  }
+  
+  .btn {
+    cursor: pointer;
+    padding: 15px 30px;
+    border: 1px solid orangered;
+    display: inline-block;
+    background-color: transparent;
+    transition: 0.3s ease;
+  
+    &--primary {
+      background-color: orangered;
+      color: white;
+      border-radius: 7px;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+  */
