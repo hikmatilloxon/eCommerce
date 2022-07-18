@@ -1,0 +1,53 @@
+.header {
+    padding: 26px 0;
+   
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    
+    h2 {
+        margin: 0 410px 0 12px;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+
+    img {
+        width: 24px;
+        height: 22.63px;
+    }
+}
+
+
+
+
+.header__nav ul {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+
+    a {
+        color: #FFFFFF;
+        text-decoration: none;
+        font-size: 12px;
+        font-style: normal;
+    }
+
+    nav {
+        display: flex;
+    }
+}
+
+.vector {
+    width: 14.05px;
+    height: 15.66px;
+    margin: 0 12px 0 auto;
+}
+
+.lupa {
+    width: 16px;
+    height: 15.66px;
+
+}
+

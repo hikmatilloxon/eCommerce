@@ -1,0 +1,47 @@
+.image_with_text {
+    background-image: url(../img/Blob.png);
+    background-repeat: no-repeat;
+}
+
+.text__img {
+    display: flex;
+}
+
+.improve {
+    margin: 0 0 0 600px;
+    
+
+    h2 {
+        font-size: 50px;
+        color: #5FD788;
+        max-width: 573px;
+        line-height: 53px;
+    }
+
+    p {
+        font-size: 14px;
+        color: #9CA3AF;
+        max-width: 374px;
+        line-height: 19px;
+
+    }
+
+
+}
+
+.btn {
+    background-color: #5FD788;
+    border-radius: 8px;
+    padding: 8px 30px;
+    color: #1F2937;
+    border: 0px;
+    margin: 0 0 150px 0 ;
+}
+
+.btn-btn-primary {
+    background-color: #5FD788;
+    border-radius: 8px;
+    padding: 8px 30px;
+    color: #1F2937;
+    border: 0px;
+}

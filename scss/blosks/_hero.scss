@@ -1,0 +1,32 @@
+.hero__inner  {
+
+    h2 {
+
+        font-size: 96px;
+        line-height: 86px;
+        color: #5FD788;
+        max-width: 480px;
+        margin: 0px 0 38px 0;
+    }
+
+    p {
+        color: #9CA3AF;
+        font-size: 14px;
+        line-height: 19px;
+        max-width: 345px;
+        display: flex; 
+    }
+}
+
+
+
+.hero__img {
+    margin: 0 0 0 500px;
+}
+
+
+.hero {
+    background-image: url(../img/Ellipse\ 1\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
