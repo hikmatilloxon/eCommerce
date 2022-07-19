@@ -1,0 +1,39 @@
+.h2 {
+    font-size: 50px;
+    color: #5FD788;
+    align-items: center;
+}
+
+.blog__inner {
+    display: flex;
+    gap: 24px;
+}
+
+.blog__nav {
+    width: 371px;
+    height: 395px;
+    background-color: #374151;
+    border-radius: 8px;
+
+    h3 {
+        font-size: 20px;
+        max-width: 325px;
+        color: #5FD788;
+        padding: 22px 22px 3px 22px;
+        line-height: 28px;
+    }
+
+    img {
+        border-radius: 8px;
+    }
+
+    p {
+        font-size: 16px;
+        max-width: 325px;
+        color: #F3F4F6;
+        padding: 0 22px;
+        line-height: 24px;
+        margin: 0 0 22px 0;
+    }
+
+}

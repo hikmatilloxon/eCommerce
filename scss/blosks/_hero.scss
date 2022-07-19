@@ -7,6 +7,10 @@
         color: #5FD788;
         max-width: 480px;
         margin: 0px 0 38px 0;
+
+        @media (max-width: $tablet) {
+            font-size: 15px; 
+        }
     }
 
     p {

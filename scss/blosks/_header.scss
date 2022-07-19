@@ -1,16 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1F2937;
+    font-family: "San Francisco Pro Display Thin";
+
+}
+
 .header {
     padding: 26px 0;
-   
+    display: flex;
 }
 
 .header__inner {
     display: flex;
     align-items: center;
-    
+
     h2 {
         margin: 0 410px 0 12px;
         font-size: 12px;
         color: #FFFFFF;
+
+
     }
 
     img {
@@ -50,4 +62,3 @@
     height: 15.66px;
 
 }
-
