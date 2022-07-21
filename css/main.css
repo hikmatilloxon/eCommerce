@@ -4,26 +4,29 @@
 
 body {
   background-color: #1F2937;
+  font-family: "Roboto" "sanserif";
+  margin-top: 100px;
 }
 
 .header {
   padding: 26px 0;
+  display: flex;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #1F2937;
+  background-color: #1F2937;
 }
 
 .header__inner {
   display: flex;
   align-items: center;
 }
-.header__inner h2 {
-  margin: 0 410px 0 12px;
-  font-size: 12px;
-  color: #FFFFFF;
-
-
-}
 .header__inner img {
-  width: 24px;
-  height: 22.63px;
+  width: 102px;
+  height: 24px;
 }
 
 .header__nav ul {
@@ -53,7 +56,7 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1440px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -124,6 +127,7 @@ input[type=radio]:checked + label {
   color: #5FD788;
   max-width: 480px;
   margin: 0px 0 38px 0;
+  justify-content: space-evenly;
 }
 .hero__inner p {
   color: #9CA3AF;
@@ -133,14 +137,31 @@ input[type=radio]:checked + label {
   display: flex;
 }
 
-.hero__img {
+.hero__img img {
   margin: 0 0 0 500px;
+}
+@media (max-width: 1200px) {
+  .hero__img img {
+    height: 196px;
+    width: 290px;
+    left: 541px;
+    top: 264px;
+    border-radius: 0px;
+  }
 }
 
 .hero {
   background-image: url(../img/Ellipse\ 1\ \(1\).svg);
   background-repeat: no-repeat;
   background-position: top right;
+}
+@media (max-width: 1200px) {
+  .hero {
+    height: 465px;
+    width: 674px;
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
 }
 
 .image_with_text {
@@ -163,23 +184,19 @@ input[type=radio]:checked + label {
   color: #9CA3AF;
   max-width: 374px;
   line-height: 19px;
+  margin: 0 0 30px 0;
 }
-
-.btn {
+.improve a {
+  border: 0;
   background-color: #5FD788;
+  padding: 12px 30px;
   border-radius: 8px;
-  padding: 8px 30px;
+  margin: 0;
+  text-decoration: none;
   color: #1F2937;
-  border: 0px;
-  margin: 0 0 150px 0;
-}
-
-.btn-btn-primary {
-  background-color: #5FD788;
-  border-radius: 8px;
-  padding: 8px 30px;
-  color: #1F2937;
-  border: 0px;
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
 }
 
 .featured__products {
@@ -189,14 +206,78 @@ input[type=radio]:checked + label {
   margin-right: 50px;
 }
 
+.nuqta {
+  display: flex;
+}
+.nuqta ul li {
+  list-style-type: none;
+}
+.nuqta button {
+  border-radius: 50%;
+  border: 0;
+  color: white;
+  width: 8px;
+  height: 8px;
+  background-color: #374151;
+  margin: 0;
+}
+
 .featured-products__inner {
   display: flex;
 }
 
+.button {
+  display: flex;
+}
+
+.Aroma_Diffuser {
+  margin-right: auto;
+}
+.Aroma_Diffuser h4 {
+  color: #9CA3AF;
+  line-height: 28px;
+  font-style: bold;
+  font-size: 20px;
+  margin: 0;
+  display: inline-block;
+}
+.Aroma_Diffuser span {
+  border: 0;
+  padding: 2px 6px;
+  background-color: #5FD788;
+  border-radius: 8px;
+  color: white;
+  line-height: 10px;
+  font-size: 10px;
+  text-align: center;
+  margin: 8px;
+  text-align: center;
+}
+.Aroma_Diffuser p {
+  max-width: 239px;
+  color: #6B7280;
+  line-height: 19px;
+  font-size: 14px;
+  font-weight: 400px;
+  margin: 15px 61px 0 0;
+}
+
+.featured-products {
+  margin: 60px;
+}
 .featured-products h2 {
   font-size: 50px;
   color: #5FD788;
-  margin: 0 150px 0 0;
+  margin: 0 150px 20px 0 0;
+}
+.featured-products a {
+  border: 0;
+  background-color: #5FD788;
+  padding: 12px 30px;
+  border-radius: 8px;
+  margin: 0;
+  text-decoration: none;
+  color: #1F2937;
 }
 
 .text__image__inner {
@@ -209,55 +290,114 @@ input[type=radio]:checked + label {
   font-size: 50px;
   color: #1F2937;
   max-width: 523px;
-  margin: 100px 0 0 100px;
+  margin: 100px 0 0 150px;
+}
+.text__image__inner a {
+  border: 0;
+  background-color: #1F2937;
+  padding: 12px 30px;
+  border-radius: 8px;
+  margin: 150px;
+  text-decoration: none;
+  color: white;
 }
 
 .text__image img {
-  margin: -298px 0 200px 700px;
-}
-
-.btn2 {
-  background-color: #1F2937;
-  border-radius: 8px;
-  padding: 8px 30px;
-  color: #F3F4F6;
-  border: 0px;
-  margin: 35px 0 0 100px;
-}
-
-.btn2 {
-  background-color: #1F2937;
-  border-radius: 8px;
-  padding: 8px 30px;
-  color: #F3F4F6;
-  border: 0px;
+  margin: -250px 0 200px 780px;
 }
 
 .text__image {
   margin: 180px 0 0 0;
 }
 
-.featured__products2 {
-  background-image: url(../img/Vector\ \(2\).png);
+.featured__products {
+  background-image: url(../img/Vector\ \(3\).png);
   background-repeat: no-repeat;
   margin: 120px 0 0 0;
   margin-right: 50px;
 }
 
-.featured-products__inner2 {
+.nuqta {
+  display: flex;
+}
+.nuqta ul li {
+  list-style-type: none;
+}
+.nuqta button {
+  border-radius: 50%;
+  border: 0;
+  color: white;
+  width: 8px;
+  height: 8px;
+  background-color: #374151;
+  margin: 0;
+}
+
+.featured-products__inner {
   display: flex;
 }
 
-.featured-products2 h2 {
+.button {
+  display: flex;
+}
+
+.Aroma_Diffuser {
+  margin-right: auto;
+}
+.Aroma_Diffuser h4 {
+  color: #9CA3AF;
+  line-height: 28px;
+  font-style: bold;
+  font-size: 20px;
+  margin: 0;
+  display: inline-block;
+}
+.Aroma_Diffuser span {
+  border: 0;
+  padding: 2px 6px;
+  background-color: #5FD788;
+  border-radius: 8px;
+  color: white;
+  line-height: 10px;
+  font-size: 10px;
+  text-align: center;
+  margin: 8px;
+  text-align: center;
+}
+.Aroma_Diffuser p {
+  max-width: 239px;
+  color: #6B7280;
+  line-height: 19px;
+  font-size: 14px;
+  font-weight: 400px;
+  margin: 15px 61px 0 0;
+}
+
+.featured-products {
+  margin: 60px;
+}
+.featured-products h2 {
   font-size: 50px;
   color: #5FD788;
-  margin: 0 215px 0 0;
+  margin: 0 150px 20px 0 0;
+}
+.featured-products a {
+  border: 0;
+  background-color: #5FD788;
+  padding: 12px 30px;
+  border-radius: 8px;
+  margin: 0;
+  text-decoration: none;
+  color: #1F2937;
 }
 
 .h2 {
   font-size: 50px;
   color: #5FD788;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .blog__inner {
@@ -284,7 +424,7 @@ input[type=radio]:checked + label {
 .blog__nav p {
   font-size: 16px;
   max-width: 325px;
-  color: #F3F4F6;
+  color: white;
   padding: 0 22px;
   line-height: 24px;
   margin: 0 0 22px 0;

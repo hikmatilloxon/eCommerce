@@ -1,7 +1,7 @@
 .footer {
     width: 1441px;
     height: 250px;
-    background-color: #374151;
+    background-color: $color-hero__inner-seri2;
     margin: 100px 0 0 0;
 }
 
@@ -11,13 +11,16 @@
 
 .footer__wan {
 
+
+
+
     h3 {
-        color: #5FD788;
+        color: $color-hero__inner-yashil;
         font-size: 12px;
     }
 
     a {
-        color: #9CA3AF;
+        color: $color-hero__inner-seri;
         list-style-type: none;
         text-decoration: none;
         font-size: 12px;
@@ -28,12 +31,12 @@
 .footer__too {
 
     h3 {
-        color: #5FD788;
+        color: $color-hero__inner-yashil;
         font-size: 12px;
     }
 
     a {
-        color: #9CA3AF;
+        color: $color-hero__inner-seri;
         list-style-type: none;
         font-size: 12px;
         text-decoration: none;
@@ -43,12 +46,12 @@
 .footer__theree {
 
     h3 {
-        color: #5FD788;
+        color: $color-hero__inner-yashil;
         font-size: 12px;
     }
 
     a {
-        color: #9CA3AF;
+        color: $color-hero__inner-seri;
         list-style-type: none;
         text-decoration: none;
         font-size: 12px;
@@ -61,5 +64,6 @@
     margin-right: auto;
     line-height: 16px;
     max-width: 222px;
-    color:#9CA3AF;
+    color: $color-hero__inner-seri;
+    
 }

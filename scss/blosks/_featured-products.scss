@@ -3,6 +3,29 @@
     background-repeat: no-repeat;
     margin: 120px 0 0 0;
     margin-right: 50px;
+
+
+
+}
+
+.nuqta {
+    display: flex;
+    
+    
+    ul li {       
+        list-style-type: none;
+
+    }
+
+    button {
+        border-radius: 50%;
+        border: 0;
+        color: $color-hero__inner-ok;
+        width: 8px;
+        height: 8px;
+        background-color: $color-hero__inner-seri2;
+        margin: 0;
+    }
     
 }
 
@@ -10,25 +33,63 @@
     display: flex;
 }
 
+.button {
+    display: flex;
+}
 
-.featured-products {
-    h2 {
-        font-size: 50px;
-        color: #5FD788;
-        margin: 0 150px 0 0;
+.Aroma_Diffuser {
+    margin-right: auto;
+
+    h4 {
+        color: $color-hero__inner-seri;
+        line-height: 28px;
+        font-style: bold;
+        font-size: 20px;
+        margin: 0;
+        display: inline-block;
+    }
+
+    span {
+        border: 0;
+        padding: 2px 6px;
+        background-color: $color-hero__inner-yashil;
+        border-radius: 8px;
+        color: $color-hero__inner-ok;
+        line-height: 10px;
+        font-size: 10px;
+        text-align: center;
+        margin: 8px;
+        text-align: center;
+
+
+    }
+
+    p {
+        max-width: 239px;
+        color: #6B7280;
+        line-height: 19px;
+        font-size: 14px;
+        font-weight: 400px;
+        margin: 15px 61px 0 0;
     }
 }
 
+.featured-products {
+    margin: 60px;
 
+    h2 {
+        font-size: 50px;
+        color: $color-hero__inner-yashil;
+        margin: 0 150px 20px 0 0;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
+    a {
+        border: 0;
+        background-color: $color-hero__inner-yashil;
+        padding: 12px 30px;
+        border-radius: 8px;
+        margin: 0;
+        text-decoration: none;
+        color: $color-body;
+    }
+}

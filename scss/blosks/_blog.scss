@@ -1,7 +1,10 @@
 .h2 {
     font-size: 50px;
-    color: #5FD788;
+    color: $color-hero__inner-yashil;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .blog__inner {
@@ -12,13 +15,13 @@
 .blog__nav {
     width: 371px;
     height: 395px;
-    background-color: #374151;
+    background-color: $color-hero__inner-seri2;
     border-radius: 8px;
 
     h3 {
         font-size: 20px;
         max-width: 325px;
-        color: #5FD788;
+        color: $color-hero__inner-yashil;
         padding: 22px 22px 3px 22px;
         line-height: 28px;
     }
@@ -30,7 +33,7 @@
     p {
         font-size: 16px;
         max-width: 325px;
-        color: #F3F4F6;
+        color: $color-hero__inner-ok;
         padding: 0 22px;
         line-height: 24px;
         margin: 0 0 22px 0;

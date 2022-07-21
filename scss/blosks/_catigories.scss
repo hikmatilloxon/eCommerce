@@ -26,7 +26,7 @@
 }
 
  input[type="radio"]:checked+label {
-    background-color: #5FD788;
+    background-color: $color-hero__inner-yashil;
     color: white;
 }
 
@@ -39,8 +39,8 @@
 }
 
 .form-radio-label+a:checked {
-    background-color: #5FD788;
-    color: white;
+    background-color: $color-hero__inner-yashil;
+    color: $color-hero__inner-ok;
 }
 
 
@@ -48,7 +48,7 @@
 .form-radio-label {
     cursor: pointer;
     display: block;
-    background-color: #374151;
+    background-color: $color-hero__inner-seri2;
     padding: 67px 68px 94px 67px;
     width: 273px;
     height: 274px;
@@ -59,7 +59,7 @@
 
     p {
         margin: 20px;
-        color: #5FD788;
+        color: $color-hero__inner-yashil;
         max-width: 270px;
     }
 }

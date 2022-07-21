@@ -1,31 +1,42 @@
-.hero__inner  {
+.hero__inner {
 
     h2 {
 
         font-size: 96px;
         line-height: 86px;
-        color: #5FD788;
+        color: $color-hero__inner-yashil;
         max-width: 480px;
         margin: 0px 0 38px 0;
+        justify-content: space-evenly;
 
-        @media (max-width: $tablet) {
-            font-size: 15px; 
-        }
+
     }
 
     p {
-        color: #9CA3AF;
+        color: $color-hero__inner-seri;
         font-size: 14px;
         line-height: 19px;
         max-width: 345px;
-        display: flex; 
+        display: flex;
     }
 }
 
 
 
-.hero__img {
+.hero__img img {
     margin: 0 0 0 500px;
+
+    @media (max-width: $desktop) {
+        height: 196px;
+        width: 290px;
+       
+        left: 541px;
+        top: 264px;
+        border-radius: 0px;
+
+
+
+    }
 }
 
 
@@ -33,4 +44,11 @@
     background-image: url(../img/Ellipse\ 1\ \(1\).svg);
     background-repeat: no-repeat;
     background-position: top right;
+
+    @media(max-width:$desktop) {
+        height: 465px;
+        width: 674px;
+        background-repeat: no-repeat;
+        background-position: top right;
+    }
 }

@@ -1,42 +1,35 @@
 .text__image__inner {
     width: 794px;
     height: 515px;
-    background-color: #5FD788;
-   
+    background-color: $color-hero__inner-yashil;
     margin: 0 0 0 -100px ;
 
     h2 {
         font-size: 50px;
-        color: #1F2937;
+        color: $color-body;
         max-width: 523px;
-        margin: 100px 0 0 100px;
+        margin: 100px 0 0 150px;
 
         
     }
+
+    a {
+        border: 0;
+        background-color:$color-body;
+        padding: 12px 30px;
+        border-radius: 8px;
+        margin: 150px;
+        text-decoration: none;
+        color: $color-hero__inner-ok;
+     }
 }
 
 .text__image img {
-    margin: -298px 0 200px 700px;
+    margin: -250px 0 200px 780px;
     
 }
 
 
-.btn2 {
-    background-color:#1F2937;
-    border-radius: 8px;
-    padding: 8px 30px;
-    color: #F3F4F6;
-    border: 0px;
-    margin:  35px 0 0 100px ;
-}
-
-.btn2 {
-    background-color: #1F2937;
-    border-radius: 8px;
-    padding: 8px 30px;
-    color: #F3F4F6;
-    border: 0px;
-}
 
 .text__image {
     margin: 180px 0 0 0;

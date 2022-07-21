@@ -11,35 +11,35 @@
 
     h2 {
         font-size: 50px;
-        color: #5FD788;
+        color: $color-hero__inner-yashil;
         max-width: 573px;
         line-height: 53px;
     }
 
     p {
         font-size: 14px;
-        color: #9CA3AF;
+        color: $color-hero__inner-seri;
         max-width: 374px;
         line-height: 19px;
+        margin: 0 0 30px 0;
+    }
+
+    a {
+        border: 0;
+        background-color: $color-hero__inner-yashil;
+        padding: 12px 30px;
+        border-radius: 8px;
+        margin: 0;
+        text-decoration: none;
+        color: $color-body;
+        display: inline-block;
+        text-align: center;
+        font-size: 16px;
+
 
     }
 
+    
 
-}
 
-.btn {
-    background-color: #5FD788;
-    border-radius: 8px;
-    padding: 8px 30px;
-    color: #1F2937;
-    border: 0px;
-    margin: 0 0 150px 0;
-}
-
-.btn-btn-primary {
-    background-color: #5FD788;
-    border-radius: 8px;
-    padding: 8px 30px;
-    color: #1F2937;
-    border: 0px;
 }
